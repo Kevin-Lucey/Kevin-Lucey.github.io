@@ -1,6 +1,9 @@
 import bs4
 import pandas as pd
 
+"""
+This just adds a <div> tag to the bottom of the <body> and slowly
+"""
 
 class addHTML:
     def __init__(self, txt_to_add:str):
